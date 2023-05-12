@@ -1,41 +1,18 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function Footer() {
   return (
-    <div className='container'>
+    <div >
  
 <footer class="text-center text-lg-start bg-white text-muted">
   
-  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom" style={{ backgroundColor: '#f0f0f0' }}>
-  
-    <div class="me-5 d-none d-lg-block">
-      <span>Get connected with us on social networks:</span>
-    </div>
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom" >
    
-    <div>
-      <a href="" class="me-4 link-secondary">
-        <i class="fab fa-facebook-f" style={{ color: 'blue' }}></i>
-      </a>
-      <a href="" class="me-4 link-secondary">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="" class="me-4 link-secondary">
-        <i class="fab fa-google"></i>
-      </a>
-      <a href="" class="me-4 link-secondary">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="" class="me-4 link-secondary">
-        <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="" class="me-4 link-secondary">
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
   
   </section>
   
-  <section class="">
+  <section class="" >
     <div class="container text-center text-md-start mt-5">
   
       <div class="row mt-3">
@@ -43,11 +20,12 @@ export default function Footer() {
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
      
           <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-gem me-3 text-secondary"></i>Company name
+            <i class="fas fa-gem me-3 text-secondary"></i>Infinitix Software
           </h6>
           <p>
-            Here you can use rows and columns to organize your footer content. Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit.
+          As an established software company with over five years of experience, 
+          we have been delivering exceptional solutions to our clients, leveraging our expertise, 
+          and adapting to the evolving industry landscape with excellence and innovation.
           </p>
         </div>
       
@@ -57,16 +35,16 @@ export default function Footer() {
             Products
           </h6>
           <p>
-            <a href="#!" class="text-reset">Angular</a>
+            <a href="#!" class="text-reset">Xero</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">React</a>
+            <a href="#!" class="text-reset">VMware</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Vue</a>
+            <a href="#!" class="text-reset">Sap</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Laravel</a>
+            <a href="#!" class="text-reset">Atlassian</a>
           </p>
         </div>
      
@@ -92,13 +70,13 @@ export default function Footer() {
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
 
           <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-          <p><i class="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</p>
+          <p><FontAwesomeIcon icon="fa-solid fa-location-dot" />Nugegoda, Colombo, Sri Lanka</p>
           <p>
             <i class="fas fa-envelope me-3 text-secondary"></i>
-            info@example.com
+            infinitixsoftware.com
           </p>
-          <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
-          <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+          <p><i class="fas fa-phone me-3 text-secondary"></i> +94 11 222 33 33</p>
+          <p><i class="fas fa-print me-3 text-secondary"></i> +94 77 8393860</p>
         </div>
   
       </div>
@@ -106,9 +84,9 @@ export default function Footer() {
     </div>
   </section>
 
-  <div class="text-center p-4" style={{backgroundColor: 'rgba(0, 0, 0, 0.025)'}}>
+  <div class="text-center p-4" style={{backgroundColor: '#484848'}}>
     © 2021 Copyright:
-    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    <a class="text-reset fw-bold" href="https://infinitixsoftware.com/">infinitixsoftware.com</a>
   </div>
 
 </footer>

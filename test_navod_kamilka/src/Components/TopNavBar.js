@@ -29,39 +29,54 @@ export default function TopNavBar() {
 
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="#"><b>Home</b></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#"><b>About</b></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="#"><b>Services</b></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">TestiMonials</a>
+                <a class="nav-link" href="#"><b>TestiMonials</b></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
+                <a class="nav-link" href="#"><b>Portfolio</b></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Contacts</a>
+                <a class="nav-link" href="#"><b>Contacts</b></a>
                 </li>
             </ul>
 
             </div>
 
             <div class="d-flex align-items-center">
-
-            <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Lanuage
-            </button>
-            <div class="dropdown-menu" data-mdb-target="#dropdownMenuButton" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-            </div>
+            <div className="dropdown">
+                    <button
+                    className="btn btn-secondary dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >
+                    Language
+                    </button>
+                    <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a className="dropdown-item" href="#">
+                        English
+                    </a>
+                    <a className="dropdown-item" href="#">
+                        French
+                    </a>
+                    <a className="dropdown-item" href="#">
+                        German
+                    </a>
+                    <a className="dropdown-item" href="#">
+                        Italian
+                    </a>
+                    </div>
+                </div>
             
 
             </div>
