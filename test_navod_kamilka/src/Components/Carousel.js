@@ -2,7 +2,6 @@ import React from 'react';
 import Picture4 from '../Assets/Picture4.jpg'
 import Picture6 from '../Assets/Picture6.jpg'
 import Picture10 from '../Assets/Picture10.jpg'
-import Picture15 from '../Assets/Picture15.png'
 import '../Style/CSS/Carousel.css'
 
 const Carousel = () => {
@@ -16,7 +15,7 @@ const Carousel = () => {
       </ol>
       <div className="carousel-inner" style={{ borderRadius: "20px" }}>
         <div className="carousel-item active">
-          <img className="d-block w-100 carousel-img" src={Picture15} alt="First slide" style={{ borderRadius: "20px" }}/>
+          <img className="d-block w-100 carousel-img" src={Picture10} alt="First slide" style={{ borderRadius: "20px" }}/>
           <div class="carousel-caption d-none d-md-block">
             {/* <div class="row">
               <div class="col-sm-3"></div>
