@@ -15,7 +15,13 @@ const Carousel = () => {
       </ol>
       <div className="carousel-inner" style={{ borderRadius: "20px" }}>
         <div className="carousel-item active">
-          <img className="d-block w-100 carousel-img" src={Picture10} alt="First slide" style={{ borderRadius: "20px" }}/>
+          <img className="d-block w-100 carousel-img " src={Picture10} alt="First slide" style={{ borderRadius: "20px", transition: "transform 0.3s", }} onMouseOver={(e) => {
+        e.target.style.transform = "scale(1.1)";
+      }}
+      onMouseOut={(e) => {
+        e.target.style.transform = "scale(1)";
+      }}/>
+      {/* <div className="company-name">Welcome To Infinitix Software</div> */}
           <div class="carousel-caption d-none d-md-block">
             {/* <div class="row">
               <div class="col-sm-3"></div>

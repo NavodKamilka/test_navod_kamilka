@@ -3,24 +3,28 @@ import TopNavBar from '../Components/TopNavBar'
 import Carousel from '../Components/Carousel';
 import Cards from '../Components/Cards';
 import Footer from '../Components/Footer';
+import Logo from '../Assets/logo.png';
 import '../Style/CSS/LandingPage.css';
 
 export default function LandingPage() {
 
   return (
     <>
-    <div className='container'>
+    
       <br></br>
-       <div class="row">
+       {/* <div class="row">
        <div class="col-sm-1"></div>
-        <div class="col-sm-2">
-          eBeyonds
+        <div class="col-sm-1">
+          <img src={Logo} alt='logo' style={{ width: '200px', height: '200px' }}  />
         </div>
-        <div class="col-sm-8"></div>
-      </div>
-      <br></br>
-      
+        <div class="col-sm-10"></div>
+      </div> */}
+      {/* <br></br> */}
+      <div className='container'>
       <div class="row">
+        {/* <div class="col-sm-2">
+          <img src={Logo} alt='logo' style={{ width: '200px', height: '200px' }}  />
+        </div> */}
         <div class="col-sm-12">
           <TopNavBar />
         </div>
@@ -36,7 +40,15 @@ export default function LandingPage() {
         <div class="col-sm-1"></div>
       </div>
       {/* </div> */}
-      <br></br><br></br><br></br>
+      <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-2 text-left">
+          <img src={Logo} alt='logo' style={{ width: '250px', height: '250px' }}  />
+        </div>
+        <div class="col-sm-4 company"><h2><b>INFINITIX Software</b></h2></div>
+      </div>
+
+
       <div class="row">
         <div class="col-sm-4"></div>
         <div class="col-sm-4 text-center">

@@ -1,4 +1,5 @@
 import React from 'react'
+import Logo from '../Assets/logo.png';
 
 export default function TopNavBar() {
 
@@ -18,10 +19,10 @@ export default function TopNavBar() {
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-            <a class="navbar-brand mt-2 mt-lg-0" href="#">
+            <a class="navbar-brand mt-2 mt-lg-0 " href="#">
                 <img
-                src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
-                height="15"
+                src={Logo}
+                height="50"
                 alt="MDB Logo"
                 loading="lazy"
                 />
@@ -29,10 +30,10 @@ export default function TopNavBar() {
 
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                <a class="nav-link" href="#"><b>Home</b></a>
+                <a class="nav-link" href="/"><b>Home</b></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#"><b>About</b></a>
+                <a class="nav-link" href="/about"><b>About</b></a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="#"><b>Services</b></a>

@@ -7,3 +7,10 @@
     font-size: medium;
     
 }
+
+.company{
+  position: absolute;
+  bottom: -90px;
+  left: 10px;
+  color: #092435;
+}
