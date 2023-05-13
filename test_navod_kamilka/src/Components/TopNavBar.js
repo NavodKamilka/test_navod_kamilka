@@ -36,16 +36,16 @@ export default function TopNavBar() {
                 <a class="nav-link" href="/about"><b>About</b></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#"><b>Services</b></a>
+                <a class="nav-link" href="/services"><b>Services</b></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#"><b>TestiMonials</b></a>
+                <a class="nav-link" href="/testiMonials"><b>TestiMonials</b></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#"><b>Portfolio</b></a>
+                <a class="nav-link" href="/portfolio"><b>Portfolio</b></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#"><b>Contacts</b></a>
+                <a class="nav-link" href="/contacts"><b>Contacts</b></a>
                 </li>
             </ul>
 
